@@ -1,0 +1,207 @@
+<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <!-- button-->
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" id='navbutt'>
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <!-- end of button -->
+
+      <!-- brand -->
+      <a class="navbar-brand" href="#" id='nav'>Unit converter</a>
+      <!-- end of brand -->
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#temp" id='nav'>Temperature</a></li>
+        <li><a href="#length" id='nav'>Length</a></li>
+        <li><a href="#area" id='nav'>Area</a></li>
+        <li><a href="#volume" id='nav'>Volume</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<!-- temperature -->
+<div id='temp'>
+  <div class='container' id='start'>
+    <h1 align="center"> Temperature </h1>
+  </div>
+
+  <div class="form-group inputField">
+    <label>Enter your temperature</label>
+    <input type="text" class="form-control" id="inputTemp">
+  </div>
+  <div class="form-group inputField">
+    <label for="Temp">Select Temperature unit</label>
+    <select class="form-control" id="Temp">
+      <option>Kelvin</option>
+      <option>Celcius</option>
+      <option>Farenheit</option>
+    </select>
+  </div>
+
+  <div class="text-center">
+    <a href='#' class='btn btn-default' id='convert_temp'>Convert!!!</a>
+  </div>
+
+  <div class='output'>
+    <h3>Kelvin</h3>
+    <div class='text-center box' id='kelvin'>
+    </div>
+  </div>
+
+  <div class='output'>
+    <h3>Celcius</h3>
+    <div class='text-center box' id='celcius'>
+    </div>
+  </div>
+
+  <div class='output'>
+    <h3>Farenheit</h3>
+    <div class='text-center box' id='farenheit'>
+    </div>
+  </div>
+
+</div>
+<!-- end of temperature -->
+<hr />
+
+<!-- length -->
+<div id='length'>
+
+  <h1 align="center"> Length </h1>
+
+  <div class="form-group inputField">
+    <label>Enter your length</label>
+    <input type="text" class="form-control" id="inputLength">
+  </div>
+  <div class="form-group inputField">
+    <label for="Length">Select length unit</label>
+    <select class="form-control" id="Length">
+      <option>Meter</option>
+      <option>Inch</option>
+      <option>Foot</option>
+    </select>
+  </div>
+
+  <div class="text-center">
+    <a href='#' class='btn btn-default' id='convert_length'>Convert!!!</a>
+  </div>
+
+  <div class='output'>
+    <h3>Meter</h3>
+    <div class='text-center box' id='meter'>
+    </div>
+  </div>
+
+  <div class='output'>
+    <h3>Inch</h3>
+    <div class='text-center box' id='inch'>
+    </div>
+  </div>
+
+  <div class='output'>
+    <h3>Foot</h3>
+    <div class='text-center box' id='foot'>
+    </div>
+  </div>
+
+</div>
+<!-- end of length -->
+
+<hr />
+<!-- Area -->
+<div id='area'>
+
+  <h1 align="center"> Area </h1>
+
+  <div class="form-group inputField">
+    <label>Enter your Area</label>
+    <input type="text" class="form-control" id="inputArea">
+  </div>
+  <div class="form-group inputField">
+    <label for="Area">Select area unit</label>
+    <select class="form-control" id="Area">
+      <option>Meter square</option>
+      <option>Inch square</option>
+      <option>Foot square</option>
+    </select>
+  </div>
+
+  <div class="text-center">
+    <a href='#' class='btn btn-default' id='convert_area'>Convert!!!</a>
+  </div>
+
+  <div class='output'>
+    <h3>Meter Square</h3>
+    <div class='text-center box' id='meters'>
+    </div>
+  </div>
+
+  <div class='output'>
+    <h3>Inch Square</h3>
+    <div class='text-center box' id='inchs'>
+    </div>
+  </div>
+
+  <div class='output'>
+    <h3>Foot Square</h3>
+    <div class='text-center box' id='foots'>
+    </div>
+  </div>
+
+</div>
+<!-- end of area -->
+
+<hr />
+<!-- volume -->
+<div id='volume'>
+
+  <h1 align="center"> Volume </h1>
+
+  <div class="form-group inputField">
+    <label>Enter your Volume</label>
+    <input type="text" class="form-control" id="inputVolume">
+  </div>
+  <div class="form-group inputField">
+    <label for="Volume">Select volume unit</label>
+    <select class="form-control" id="Volume">
+      <option>Meter cube</option>
+      <option>Inch cube</option>
+      <option>Foot cube</option>
+    </select>
+  </div>
+
+  <div class="text-center">
+    <a href='#' class='btn btn-default' id='convert_volume'>Convert!!!</a>
+  </div>
+
+  <div class='output'>
+    <h3>Meter</h3>
+    <div class='text-center box' id='meterc'>
+    </div>
+  </div>
+
+  <div class='output'>
+    <h3>Inch</h3>
+    <div class='text-center box' id='inchc'>
+    </div>
+  </div>
+
+  <div class='output'>
+    <h3>Foot</h3>
+    <div class='text-center box' id='footc'>
+    </div>
+  </div>
+
+</div>
+<!-- end of volume -->
